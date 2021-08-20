@@ -2,24 +2,24 @@ import os
 
 name_suffix = "-AdptSrc"
 
-basedir = "/usr/local/research/compsci/helmuth/jmarler/Results/%s/"
+basedir = "/usr/local/research/compsci/helmuth/qhou/Results/adp/%s/"
 other_push_args = ":parent-selection :lexicase :genetic-operator-probabilities {:uniform-addition-and-deletion,1} :uniform-addition-and-deletion-rate 0.09 :print-timings true"
 
 
 run_numbers = "0-1"
 
 problems = ["compare-string-lengths",
-            #"double-letters",
-            #"replace-space-with-newline",
-            #"string-lengths-backwards",
-            #"last-index-of-zero",
-            #"vector-average",
-            #"mirror-image",
-            #"x-word-lines",
-            #"negative-to-zero",
-            #"scrabble-score",
-            #"smallest",
-            #"syllables"
+            "double-letters",
+            "replace-space-with-newline",
+            "string-lengths-backwards",
+            "last-index-of-zero",
+            "vector-average",
+            # "mirror-image",
+            "x-word-lines",
+            "negative-to-zero",
+            "scrabble-score",
+            "smallest",
+            "syllables"
 ]
 
 ## Probably don't need to change below here.
